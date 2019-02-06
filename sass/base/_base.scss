@@ -1,0 +1,14 @@
+/* Universal Selector */
+*,
+*::after,
+*::before {
+    /* By default browsers apply a certain margin/padding this cancels this out so we have a clean slate */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; /* Percentage to cater for users that might want to change the font size on browser which happens for users with bad sight */
+}
