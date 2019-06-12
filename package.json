@@ -1,7 +1,7 @@
 {
-  "name": "RyMac_Websites",
+  "name": "natours",
   "version": "1.0.0",
-  "description": "Rymac Websites",
+  "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
